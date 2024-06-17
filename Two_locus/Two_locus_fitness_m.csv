@@ -1,0 +1,11 @@
+male genotype,fitness b,fitness a,fitness s
+"WW,WW",1,1,1
+"WW,WR",-b_hrm*b_srm + 1,-a_hrm*a_srm + 1,-s_hrm*s_srm + 1
+"WW,GW",-b_hgm*b_sgm + 1,-a_hgm*a_sgm + 1,-s_hgm*s_sgm + 1
+"WW,GR",-b_hgm*b_sgm + 1,-a_hgm*a_sgm + 1,-s_hgm*s_sgm + 1
+"WR,WR",1 - b_srm,1 - a_srm,1 - s_srm
+"WR,GW",-b_hgm*b_sgm + 1,-a_hgm*a_sgm + 1,-s_hgm*s_sgm + 1
+"WR,GR",(-b_hgm*b_sgm + 1)*(-b_hrm*b_srm + 1),(-a_hgm*a_sgm + 1)*(-a_hrm*a_srm + 1),(-s_hgm*s_sgm + 1)*(-s_hrm*s_srm + 1)
+"GW,GW",1 - b_sgm,1 - a_sgm,1 - s_sgm
+"GW,GR",1 - b_sgm,1 - a_sgm,1 - s_sgm
+"GR,GR",1 - b_sgm,1 - a_sgm,1 - s_sgm

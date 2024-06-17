@@ -1,0 +1,7 @@
+female genotype,fitness b,fitness a,fitness s
+WW,1,1,1
+WG,1,-hgf*sgf + 1,1
+WR,1,-hrf*srf + 1,1
+GG,1,1 - sgf,1
+GR,1,1 - sgrf,1
+RR,1,1 - srf,1

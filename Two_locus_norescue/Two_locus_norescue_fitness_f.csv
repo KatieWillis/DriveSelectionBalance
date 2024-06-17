@@ -1,0 +1,22 @@
+female genotype,fitness b,fitness a,fitness s
+"WW,WW",1,1,1
+"WW,WI",1,-hif*sif + 1,1
+"WW,WR",1,-hrf*srf + 1,1
+"WW,GW",1,-hgf*sgf + 1,1
+"WW,GI",1,(-hgf*sgf + 1)*(-hif*sif + 1),1
+"WW,GR",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"WI,WI",1,1 - sif,1
+"WI,WR",1,1 - sirf,1
+"WI,GW",1,(-hgf*sgf + 1)*(-hif*sif + 1),1
+"WI,GI",1,(1 - sif)*(-hgf*sgf + 1),1
+"WI,GR",1,(1 - sirf)*(-hgf*sgf + 1),1
+"WR,WR",1,1 - srf,1
+"WR,GW",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"WR,GI",1,(1 - sirf)*(-hgf*sgf + 1),1
+"WR,GR",1,(1 - srf)*(-hgf*sgf + 1),1
+"GW,GW",1,1 - sgf,1
+"GW,GI",1,(1 - sgf)*(-hif*sif + 1),1
+"GW,GR",1,(1 - sgf)*(-hrf*srf + 1),1
+"GI,GI",1,(1 - sgf)*(1 - sif),1
+"GI,GR",1,(1 - sgf)*(1 - sirf),1
+"GR,GR",1,(1 - sgf)*(1 - srf),1
