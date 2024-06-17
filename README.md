@@ -53,10 +53,9 @@ Installation is not expected to take more than 30 minutes
 ___
 ## User notes
 
-- The AnalyticalModel.nb is a mathematica file containing the code used to generate...
-- The SimulatorScript.ipynb is a jupyter notebook which contains the code used to generate the figures and values associated with the modelling element of the project.
-- The SimulatorScript.ipynb script calls functions which define the model contained within the SimulatorFunctions.ipynb file.
-- Other folders contain human readable .csv files with gamete tables and fitness costs associated with each genotype which are used alongside the functions within SimulatorFunctions.ipynb.
+- The AnalyticalModel.nb is a mathematica file containing the code used to analyse the single-locus, single-sex PDNE model. 
+- The SimulatorScript.ipynb is a jupyter notebook which contains the code used to generate the figures and values associated with modelling more complex scenarios including two sexes, population dynamics and multiple loci.
+- For each model a folder contain human readable .csv files with gamete tables and fitness costs associated with each genotype which are used alongside the functions within SimulatorFunctions.ipynb to run the simulations. 
 
 ___
 
