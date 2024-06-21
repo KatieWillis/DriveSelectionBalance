@@ -1,7 +1,7 @@
 # DriveSelectionBalance
 
 ___
-This repository contains jupyter notebooks associated with the manuscript "Engineering drive-selection balance for localised population suppression with neutral dynamics" currently available on BioRXiv.
+This repository contains jupyter notebooks associated with the manuscript "Engineering drive-selection balance for localised population suppression with neutral dynamics" currently available on BioRXiv. The notebooks contain all code needed to reproduce all analysis, figures and tables included in the manuscript. 
 
 Katie Willis1 & Austin Burt1
 
