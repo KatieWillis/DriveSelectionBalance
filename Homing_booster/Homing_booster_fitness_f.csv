@@ -1,0 +1,37 @@
+female genotype,fitness b,fitness a,fitness s
+"WWW,WWW",1,1,1
+"WWW,WWR",1,-hrf*srf + 1,1
+"WWW,WGW",1,-hgf*sgf + 1,1
+"WWW,WGR",1,-hgf*sgf + 1,1
+"WWW,BWW",1,1,1
+"WWW,BWR",1,-hrf*srf + 1,1
+"WWW,BGW",1,-hgf*sgf + 1,1
+"WWW,BGR",1,-hgf*sgf + 1,1
+"WWR,WWR",1,1 - srf,1
+"WWR,WGW",1,-hgf*sgf + 1,1
+"WWR,WGR",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"WWR,BWW",1,-hrf*srf + 1,1
+"WWR,BWR",1,1 - srf,1
+"WWR,BGW",1,-hgf*sgf + 1,1
+"WWR,BGR",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"WGW,WGW",1,1 - sgf,1
+"WGW,WGR",1,1 - sgf,1
+"WGW,BWW",1,-hgf*sgf + 1,1
+"WGW,BWR",1,-hgf*sgf + 1,1
+"WGW,BGW",1,1 - sgf,1
+"WGW,BGR",1,1 - sgf,1
+"WGR,WGR",1,1 - sgf,1
+"WGR,BWW",1,-hgf*sgf + 1,1
+"WGR,BWR",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"WGR,BGW",1,1 - sgf,1
+"WGR,BGR",1,1 - sgf,1
+"BWW,BWW",1,1,1
+"BWW,BWR",1,-hrf*srf + 1,1
+"BWW,BGW",1,-hgf*sgf + 1,1
+"BWW,BGR",1,-hgf*sgf + 1,1
+"BWR,BWR",1,1 - srf,1
+"BWR,BGW",1,-hgf*sgf + 1,1
+"BWR,BGR",1,(-hgf*sgf + 1)*(-hrf*srf + 1),1
+"BGW,BGW",1,1 - sgf,1
+"BGW,BGR",1,1 - sgf,1
+"BGR,BGR",1,1 - sgf,1
