@@ -55,7 +55,7 @@ ___
 
 - The AnalyticalModel.nb is a mathematica file containing the code used to analyse the single-locus, single-sex PDNE model. 
 - The SimulatorScript.ipynb is a jupyter notebook which contains the code used to generate the figures and values associated with modelling more complex scenarios including two sexes, population dynamics and multiple loci.
-- For each model a folder contain human readable .csv files with gamete tables and fitness costs associated with each genotype which are used alongside the functions within SimulatorFunctions.ipynb to run the simulations. 
+- For each model a folder contain human readable .csv files with gamete tables and fitness costs associated with each genotype which are used alongside the functions within SimulatorFunctions.ipynb to run the simulations. To view the .csv files in Microsoft Excel please import the csv and select the text format to ensure each entry is readable.
 
 ___
 
