@@ -1,0 +1,11 @@
+male genotype,fitness b,fitness a,fitness s
+WW,1,1,1
+WG,1,(-hcm*scm + 1)*(-hgm*sgm + 1),1
+WR_R,1,-hgm*sgm + 1,1
+WR_D,1,-hrm*srm + 1,1
+GG,1,(1 - scm)*(1 - sgm),1
+GR_R,1,(1 - sgm)*(-hcm*scm + 1),1
+GR_D,1,(1 - sgrm)*(-hcm*scm + 1),1
+R_RR_R,1,1 - sgm,1
+R_RR_D,1,1 - sgrm,1
+R_DR_D,1,1 - srm,1
